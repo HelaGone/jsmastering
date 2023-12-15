@@ -41,7 +41,7 @@
 		});
 		return names;
 	}
-	let people_object = [{name: "Angelina Jolie",age: 80},{name: "Erick Johnes",age: 60},{name: "Paris Hilton",age: 50},{name: "Eminen",age: 60},{name: "Rob Zombie",age: 90}];
+	let people_object = [{name: "Capulina",age: 80},{name: "El resortes",age: 60},{name: "Paris Hilton",age: 50},{name: "Eminen",age: 60},{name: "Rob Zombie",age: 90}];
 	//console.log(onlyNames(people_object));
 
 	//Regresa un array basado en una condición
@@ -80,8 +80,6 @@
 
 	// Now write a new function called swapCase that takes a string of words and uses .map and your newly written capitalize()
 	// function to return a string where every other word is in all caps.
-	// Hint: look up Array.prototype.map on MDN and see what arguments the .map callback can take.
-	// ex: swapCase('hey gurl, lets javascript together sometime') // => "HEY gurl, LETS javascript TOGETHER sometime"
 	var swapCase = function(string){
 	  // Codeeeee
 	  let words = string.split(' ');
